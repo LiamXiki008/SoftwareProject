@@ -1,0 +1,185 @@
+.selector-for-some-widget {
+    box-sizing: content-box;
+}
+
+body{
+    background-color: #555555;
+    text-align: center;
+}
+
+/* Style the list items */
+ol li {
+
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    background: #eee;
+    text-align: left;
+    font-size: 18px;
+    list-style-type: decimal;
+    list-style-position: inside;
+    right: 10px;
+    border-radius: 1px;
+}
+
+div{
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    background: #eee;
+    font-size: 18px;
+    list-style-type: decimal;
+    list-style-position: inside;
+    right: 10px;
+    border-radius: 1px;
+
+}
+
+
+/* Darker background-color on hover */
+div:hover {
+    background: #ddd;
+}
+
+/* Style the header */
+.header {
+
+    font-size: large;
+    background-color: #850f2c;
+    padding: 30px 30px 20px;
+    color: white;
+    margin: auto;
+    left: 2px;
+    text-align: center;
+    border-radius: 1em;
+    border-bottom: #f9f9f9;
+    border-top: #f9f9f9;
+    border-top-style: solid;
+    border-bottom-style: solid;
+}
+.header:hover{
+    background: #850f2c;
+}
+
+
+/* Style the "Add" button */
+.addButton{
+
+    top: 10px;
+    position: relative;
+    display: flex;
+    padding: 10px;
+    width: 60%;
+    background: #d9d9d9;
+    color: #555;
+    margin: auto;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 5px;
+    justify-content: center;
+
+
+}
+.viewButton{
+
+    top: 10px;
+    position: relative;
+    display: flex;
+    padding: 10px;
+    width: 60%;
+    background: #d9d9d9;
+    color: #555;
+    margin: auto;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 5px;
+    justify-content: center;
+
+}
+
+.addButton:hover {
+    background-color: #bbb;
+}
+.viewButton:hover{
+
+    background-color: #bbb;
+}
+
+form input[type=text] {
+    top: auto;
+    left: 85px;
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+.deleteButton{
+
+    font-family: serif;
+    text-align: center;
+    font-size: 13px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 15px;
+    right : 15px;
+    padding: 8px 12px;
+    border: 2px solid darkgray;
+
+}
+
+.deleteButton:hover{
+    background-color: #bbb;
+}
+
+.updateButton:hover{
+    background-color: #bbb
+}
+
+.updateButton {
+
+    font-family: serif;
+    text-align: center;
+    font-size: 13px;
+    cursor: pointer;
+    position: absolute;
+    right : 85px;
+    bottom: 15px;
+    padding: 8px 12px;
+    border: 2px solid darkgray;
+
+}
+
+input {
+    margin: 0;
+    border: none;
+    border-radius: 0;
+    width: 75%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.updateConfirm {
+
+    top: 10px;
+    position: relative;
+    display: flex;
+    padding: 10px;
+    width: 60%;
+    background: #d9d9d9;
+    color: #555;
+    margin: auto;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 5px;
+    justify-content: center;
+
+}
